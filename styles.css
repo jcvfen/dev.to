@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 10;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+.header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: 'comic sans';
+    justify-content: center;
+}
+p {
+    padding: 10px;
+    m
+}
+.href {
+    padding: 10px;
+}
+
+a[href$='.com'] { padding: 30px; margin-bottom: 20px; }
+a[img$='.png'] { padding: 5px; margin-bottom: 10px; height: 50px; width: 55px;}
+
+.social-container {
+    width: 900px;
+    height: auto;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+}
+.first-item,
+.social-row-item {
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: center;
+}
